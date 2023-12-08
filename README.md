@@ -143,29 +143,29 @@ Tailwind 有3个layer，`base`，`components`和`utilities`，指定了 layer �
 ### Peer and Group
 1. 当鼠标悬浮到父元素时，子元素样式发生改变。
 
-```HTML
-<div class="group hover:bg-purple-600">
-  <div class="group-hover:bg-red-600"></div>
-  <div class="group-hover:bg-blue-600"></div>
-</div>
-```
+    ```HTML
+    <div class="group hover:bg-purple-600">
+      <div class="group-hover:bg-red-600"></div>
+      <div class="group-hover:bg-blue-600"></div>
+    </div>
+    ```
 
 2. 当鼠标悬停到某一元素时，其兄弟元素样式发生改变。
-```HTML
-<div class="peer hover:bg-purple-600"></div>
-<div class="peer-hover:bg-green-600"></div>
-```
+    ```HTML
+    <div class="peer hover:bg-purple-600"></div>
+    <div class="peer-hover:bg-green-600"></div>
+    ```
 
 3. 如果想对每个子元素或兄弟元素区别对待，也可以给 group 或 peer 添加不同的名字。
-```HTML
-<div class="group/name hover:bg-purple-600">
-  <div class="group-hover/name:bg-red-600"></div>
-  <div class="group-hover/name:bg-blue-600"></div>
-</div>
-
-<div class="peer/other-name hover:bg-purple-600"></div>
-<div class="peer-hover/other-name:bg-green-600"></div>
-```
+    ```HTML
+    <div class="group/name hover:bg-purple-600">
+      <div class="group-hover/name:bg-red-600"></div>
+      <div class="group-hover/name:bg-blue-600"></div>
+    </div>
+    
+    <div class="peer/other-name hover:bg-purple-600"></div>
+    <div class="peer-hover/other-name:bg-green-600"></div>
+    ```
 
 ### Animation
 Tailwind 有一些好用的自带的 Animation 类名。
