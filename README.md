@@ -1,22 +1,20 @@
 # Tailwind CSS 的最佳实践
 
 ## Table of Content
-- [Tailwind CSS 的最佳实践](#tailwind-css-的最佳实践)
-  - [Table of Content](#table-of-content)
-  - [Learn Tailwind](#learn-tailwind)
-  - [Tailwind Cheat Sheet](#tailwind-cheat-sheet)
-  - [Tailwind VS Code 插件](#tailwind-vs-code-插件)
-  - [格式化 Tailwind CSS 代码](#格式化-tailwind-css-代码)
-  - [Tailwind Responsive Design](#tailwind-responsive-design)
-    - [Range](#range)
-    - [自定义媒体查询范围](#自定义媒体查询范围)
-  - [额外的 CSS 写在哪里](#额外的-css-写在哪里)
-    - [Layer](#layer)
-    - [在 CSS 文件中使用 Tailwind](#在-css-文件中使用-tailwind)
-  - [Tailwind Tricks](#tailwind-tricks)
-    - [Peer and Group](#peer-and-group)
-    - [Animation](#animation)
-  - [Reference](#reference)
+- [Learn Tailwind](#learn-tailwind)
+- [Tailwind Cheat Sheet](#tailwind-cheat-sheet)
+- [Tailwind VS Code 插件](#tailwind-vs-code-插件)
+- [格式化 Tailwind CSS 代码](#格式化-tailwind-css-代码)
+- [Tailwind Responsive Design](#tailwind-responsive-design)
+  - [Range](#range)
+  - [自定义媒体查询范围](#自定义媒体查询范围)
+- [额外的 CSS 写在哪里](#额外的-css-写在哪里)
+  - [Layer](#layer)
+  - [在 CSS 文件中使用 Tailwind](#在-css-文件中使用-tailwind)
+- [Tailwind Tricks](#tailwind-tricks)
+  - [Peer and Group](#peer-and-group)
+  - [Animation](#animation)
+- [Reference](#reference)
 
 ## Learn Tailwind
 打开 Youtube 或 Udemy 搜索 Tailwind 的教程，可以看到这些视频动辄就是3至7个小时不等，但这样学习 Tailwind 是一件很浪费时间的事。Tailwind 本质上还是 CSS，在 CSS 的基础上添加了类名以供使用，所以掌握了 CSS 基本就掌握了 Tailwind。
