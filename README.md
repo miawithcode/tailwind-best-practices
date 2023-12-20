@@ -41,10 +41,17 @@ Tailwind 中有很多预先构建（pre-built）的类名（class），但我不
 
 ## 格式化 Tailwind CSS 代码
 
-在项目中安装 Prettier for Tailwind，这个插件会自动把 Tailwind 类名按照官方推荐的顺序排序。
-```bash
-npm install -D prettier prettier-plugin-tailwindcss
-```
+1. 在项目中安装 Prettier for Tailwind
+    ```bash
+    npm install -D prettier prettier-plugin-tailwindcss
+    ```
+2. 创建 `.prettierrc` 文件，添加：
+   ```json
+   {
+     "plugins": ["prettier-plugin-tailwindcss"]
+   }
+   ```
+3. 设置好后，这个插件会自动把 Tailwind 类名按照官方推荐的顺序排序。
 
 ## Tailwind Responsive Design
 
